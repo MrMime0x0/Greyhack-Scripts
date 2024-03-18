@@ -1,0 +1,4 @@
+user = params[0]
+print("user: " + user + " > Has Been Scraped =[for all info]=")
+shell = get_shell.launch("/bin/cat", "/home/" + user + "/Config/Mail.txt")
+shell2 = get_shell.launch("/bin/cat", "/home/" + user + "/Config/Bank.txt")
